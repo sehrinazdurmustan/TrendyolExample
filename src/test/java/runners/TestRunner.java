@@ -6,8 +6,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "C:/Users/sdurmus/IdeaProjec/TrendyolExample/src/test/resources/features", // Feature dosyalarının yolu
-        glue = {"stepDefinations"},       // Step Definitions ve gerekli class'ların yolu
+        features = "C:/Users/Yoga/IdeaProjects/TrendyolExample/src/test/resources/features", // Feature dosyalarının yolu
+        glue = {"stepDefinitions"},       // Step Definitions ve gerekli class'ların yolu
         plugin = {
                 "pretty",                           // Konsol çıktısını daha okunabilir hale getirir
                 "html:target/cucumber-reports.html", // HTML raporu oluşturur

@@ -1,15 +1,10 @@
-package stepDefinations;
+package stepDefinitions;
 
-import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
-import org.openqa.selenium.Keys;
 import pages.TrendyolHomePage;
-import utils.ConfigReader;
-import utils.Driver;
 import utils.ReusablaMethods;
 
-public class SearchProductStepDefinations {
+public class SearchProductStepDefinitions {
 
     private TrendyolHomePage trendyolHomePage = new TrendyolHomePage();
 

@@ -1,19 +1,12 @@
-package stepDefinations;
+package stepDefinitions;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
-import org.openqa.selenium.*;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import pages.TrendyolHomePage;
-import utils.Driver;
 import utils.ReusablaMethods;
 
-import java.time.Duration;
-
-public class AddToChartStepDefinations {
+public class AddToChartStepDefinitions {
 
     private TrendyolHomePage trendyolHomePage = new TrendyolHomePage();
 

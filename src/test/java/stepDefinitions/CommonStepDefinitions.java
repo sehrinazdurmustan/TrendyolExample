@@ -1,4 +1,4 @@
-package stepDefinations;
+package stepDefinitions;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
@@ -7,7 +7,7 @@ import pages.TrendyolHomePage;
 import utils.ConfigReader;
 import utils.Driver;
 
-public class CommonStepDefination {
+public class CommonStepDefinitions {
 
     private TrendyolHomePage trendyolHomePage = new TrendyolHomePage();
 
